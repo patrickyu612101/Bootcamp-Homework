@@ -1,0 +1,62 @@
+.citybackground{
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+}
+.citytitle{
+    text-align: center; 
+    font-weight: bold;
+    font-size:80px;
+    font-family:Trebuchet MS, Helvetica, sans-serif;
+}
+.boximgs{
+    height:300px;
+    
+    position: relative;
+}
+.boximgs img{
+    width:100%;
+    z-index: 0;
+    
+    /* opacity: 0.4; */
+    
+}
+.centerbox{
+    position: absolute;
+    width:100%;
+    z-index: 1;
+}
+.cityimg_text{
+    z-index: 2;
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+    font-family:Trebuchet MS, Helvetica, sans-serif;
+}
+/* #hidepop{
+    display:none;
+} */
+#showpop{
+    color:white;
+    /* background-color:white; */
+}
+#hidepop{
+    background-color:white;
+}
+.imgbackground{
+    background-color:white;
+}
+#showpop:hover {
+    color:black
+    
+}
+#showpop:hover .citypageimg{
+    opacity: 0.5;
+
+}
+#showpop:hover +#hidepop{
+    display:block;
+}
+
+
+
